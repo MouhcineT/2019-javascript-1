@@ -1,32 +1,35 @@
 <html lang="en">
-    <head>
-        <title>Okcoders Javascript</title>
-    </head>
-    <body>
-        <script>
-             var age = prompt("User age");
-             var name= prompt("User name");
-           /* document.write("<h1>" + name + "</h1>");
-            document.write("<div> Age: " +age / 3 + "</div>");
-            document.write("<div> day: " + day  *  127 + "</div>" );*/
+
+<head>
+    <title>Okcoders Javascript</title>
+</head>
+
+<body>
+    <script>
+        var cols = prompt("Columns: ");
+        var rows = prompt("Rows: ")
+        for (var x = 1; x <= rows; x++) {
+            for (var i = 1; i <= cols; i++) {
+                document.write("X")
+            }
+            document.write("<br>")
+
+        }
+
+
+        // for (var i = number; i > number2; i--) {
+        //     document.write(" number " + i + "<br>");
+        //     }
 
 
 
-           /*document.write( 43 == (21*2) + 2);*/
-
-           if(age > 55){
-               document.write( name + " is odl")
-           }
-           else if (age <25 && age >55) {
-               document.write( name + " just right")
-           }
-           else {
-            document.write( name + " is young")
-           }
-          
 
 
-        
-        </script>
-    </body>
+
+
+
+
+    </script>
+</body>
+
 </html>
